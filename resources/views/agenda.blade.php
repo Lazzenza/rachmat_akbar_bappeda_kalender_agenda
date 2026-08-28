@@ -144,7 +144,19 @@
             box-shadow: none;
         }
 
+        .fc .fc-prev-button,
+        .fc .fc-next-button {
+            background: #16a34a;
+            border-color: #16a34a;
+        }
+
         .fc .fc-button:hover {
+            background: #15803d;
+            border-color: #15803d;
+        }
+
+        .fc .fc-prev-button:hover,
+        .fc .fc-next-button:hover {
             background: #15803d;
             border-color: #15803d;
         }
