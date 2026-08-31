@@ -60,6 +60,13 @@ class AgendaSearchTest extends TestCase
             ->assertJsonCount(0, 'data');
     }
 
+    public function test_kalender_route_returns_page(): void
+    {
+        $response = $this->get('/kalender');
+
+        $response->assertOk();
+    }
+
     private function createAgendas(): void
     {
         Agenda::create([
